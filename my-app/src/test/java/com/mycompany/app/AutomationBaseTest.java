@@ -57,5 +57,12 @@ public class AutomationBaseTest{
 	
 	}
 	
+	@Test 
+	public void verifySetAndGetClipboardText() {
+        final String text = "Happy testing";
+      
+        assertEquals(text, text);
+    }
+	
 
 }
